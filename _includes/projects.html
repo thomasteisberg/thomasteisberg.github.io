@@ -11,7 +11,7 @@
       <div class="card-body">
         <h2 class="card-title text-lowercase">{{ project.title }}</h2>
         <p class="card-text">{{ project.description }}</p>
-        <div class="row ml-1 mr-1 p-0">
+        <div class="row ml-1 mr-1 p-0 justify-content-end">
           {% if project.github %}
           <div class="github-icon">
             <div class="icon" data-toggle="tooltip" title="Code Repository">
@@ -23,6 +23,22 @@
               <span id="{{ project.github_stars }}-stars"></span>
             </span>
             {% endif %}
+          </div>
+          {% endif %}
+
+          {% if project.paper_url %}
+          <div class="paper-icon">
+            <div class="icon" data-toggle="tooltip" title="Paper">
+              &nbsp;<a href="{{ project.paper_url }}" target="_blank"><i class="fas fa-file"></i></a>
+            </div>
+          </div>
+          {% endif %}
+
+          {% if project.external_url %}
+          <div class="paper-icon">
+            <div class="icon" data-toggle="tooltip" title="External Project Website">
+              &nbsp;<a href="{{ project.external_url }}" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+            </div>
           </div>
           {% endif %}
         </div>

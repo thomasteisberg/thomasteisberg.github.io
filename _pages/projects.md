@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Research and personal projects, as well as some open-source resources
 nav: true
-display_categories: [work, fun]
-horizontal: false
+display_categories: [research, resources, other]
+horizontal: true
 ---
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
@@ -17,7 +17,7 @@ horizontal: false
       <!-- Generate cards for each project -->
       {% if page.horizontal %}
         <div class="container">
-          <div class="row row-cols-2">
+          <div class="row row-cols-1">
           {% for project in sorted_projects %}
             {% include projects_horizontal.html %}
           {% endfor %}
