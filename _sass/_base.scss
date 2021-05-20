@@ -503,3 +503,26 @@ html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
 }
+
+// Alerts
+
+.alert-primary {
+  color: #{$color-primary-0};
+  background-color: #{lighten($color-primary-1, 25%)};
+  border-color: #{$color-primary-0};
+}
+
+.links {
+  a.btn {
+    color: var(--global-text-color);
+    border: 1px solid var(--global-text-color);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    &:hover {
+      color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+    }
+  }
+}
