@@ -7,6 +7,12 @@ layout: default
     <p class="post-description">{{ page.description }}</p>
   </header>
 
+  {% if page.old_warning %}
+  <div class="alert alert-primary" role="alert">
+    Just a quick warning: This project is quite old. It might still be interesting/useful, but just keep in mind that parts of this page may be outdated.
+  </div>
+  {% endif %}
+
   <article>
     {{ content }}
   </article>
