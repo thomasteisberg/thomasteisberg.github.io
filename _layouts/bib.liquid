@@ -134,6 +134,9 @@
           {{- more_authors_hide -}}
         </span>
       {% endif %}
+      {% if entry.author_extra %}
+        <br /><span>{{ entry.author_extra }}</span>
+      {% endif %}
       {% if entry.annotation %}
         <i
           class="fa-solid fa-circle-info ml-1"
