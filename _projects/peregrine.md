@@ -11,7 +11,7 @@ external_url: https://orca.radioglaciology.com/
 
 Peregrine is a small (2 meter wingspan) fixed-wing UAS carrying a custom miniaturized ice-penetrating radar, built around the Open Radar Code Architecture (ORCA) that Anna Broome and I spent much of our PhD's developing.
 
-You can find the [main project page for ORCA here](https://orca.radioglaciology.com/).
+You can find the [main project page for ORCA here](https://orca.radioglaciology.com/) or see our paper at the bottom of this page.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -27,3 +27,7 @@ You can find the [main project page for ORCA here](https://orca.radioglaciology.
     </div>
 </div>
 <div class="caption">A "film strip" visualization of radar data collected by Peregrine in Svalbard showing the bed of the glacier and an internal layer (red arrows).</div>
+
+<div class="publications">
+{% bibliography --query @article[tag=teisberg_orca_2024] %}
+</div>
