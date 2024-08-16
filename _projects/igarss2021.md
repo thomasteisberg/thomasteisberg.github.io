@@ -8,10 +8,6 @@ category: research
 github: https://github.com/thomasteisberg/igarss2021
 ---
 
-<div class="publications">
-{% bibliography --query @article[doi=10.1109/IGARSS47720.2021.9555002] %}
-</div>
-
 Knowing the topography of the bed under Earth's ice sheets and glaciers is critical to predicting how the ice will evolve over time, but this topographic information is hidden by the ice itself. The most wide-scale measurements of ice thickness, and, thus, the subglacial topography, come from airborne ice-penetrating radar instruments. These instruments, operating at low frequencies, can penetrate through the ice to measure ice thicknesses of up to several kilometers. These measurements, however, are only sparesly available throughout Antarctica. As a result, most ice sheet models use interpolated maps of the bed, made by filling in the gaps in these sparse measurements.
 
 One approach to filling in these gaps is to use a physics-based approach based on the conservation of mass. Given a known ice velocity and thickness at one position, the downstream thickness can then be inferred only based on the velocity at the downstream location. Although uncertainties still exist, this method has proven effective at producing high-quality interpolated bed maps in fast-flowing regions of Antarctica and Greenland.
@@ -51,3 +47,7 @@ Our results in the test region are similar to BedMachine Antarctica, the current
     </div>
 </div>
 <div class="caption">Comparison between our results, BedMachine Antarctica, and BedMap 2</div>
+
+<div class="publications">
+{% bibliography --query @article[doi=10.1109/IGARSS47720.2021.9555002] %}
+</div>
