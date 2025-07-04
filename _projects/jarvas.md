@@ -275,7 +275,7 @@ You will need:
 * An ICSP programmer (such as the [JTAGICE3](http://www.atmel.com/tools/jtagice3.aspx))
 * The [avrdude](http://www.nongnu.org/avrdude/) software
 * Firmware for the chip. We used SparkFun's [Caterina](https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/32U4Note.pdf) bootloader (Caterina-promicro8.bin from [here](https://github.com/sparkfun/Arduino_Boards/tree/master/sparkfun/avr/bootloaders/caterina))
-* A board with an Atmega32U4 and an ICSP header, such as our [Tag Board](../hardware/#the-tag)
+* A board with an Atmega32U4 and an ICSP header, such as our tag board
 
 ### Tip for Linux users
 
