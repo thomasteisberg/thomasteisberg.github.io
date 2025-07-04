@@ -1,0 +1,11 @@
+
+repo_description_lines_max: 2
+
+github_repos:
+  - radioglaciology/uhd_radar
+  - thomasteisberg/peregrine_hardware
+  - radioglaciology/radarfilmstudio
+  - thomasteisberg/englacial_velocity
+
+gitlab_repos:
+  - openpolarradar/opr
