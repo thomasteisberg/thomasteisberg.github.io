@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <noscript>
+        <meta http-equiv="refresh" content="0; url=https://docs.englacial.org/xopr/">
+    </noscript>
+    <script type="text/javascript">
+        // Get the current path after /xopr/
+        var path = window.location.pathname;
+        var subpath = path.replace(/^\/xopr\/?/, '');
+
+        // Construct the new URL
+        var newUrl = 'https://docs.englacial.org/xopr/' + subpath;
+
+        // Preserve query string and hash if present
+        if (window.location.search) {
+            newUrl += window.location.search;
+        }
+        if (window.location.hash) {
+            newUrl += window.location.hash;
+        }
+
+        // Redirect
+        window.location.replace(newUrl);
+    </script>
+    <link rel="canonical" href="https://docs.englacial.org/xopr/">
+</head>
+<body>
+    <p>Redirecting to <a href="https://docs.englacial.org/xopr/">docs.englacial.org/xopr/</a>...</p>
+</body>
+</html>
